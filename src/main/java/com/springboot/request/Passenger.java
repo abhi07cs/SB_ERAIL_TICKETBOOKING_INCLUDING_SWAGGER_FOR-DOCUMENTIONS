@@ -1,8 +1,7 @@
 package com.springboot.request;
+import lombok.Data;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
-import lombok.Data;
 
 @Data
 @XmlRootElement

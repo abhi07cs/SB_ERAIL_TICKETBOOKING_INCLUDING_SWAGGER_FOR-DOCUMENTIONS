@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+
 @Data
 @XmlRootElement
 public class Ticket {
@@ -47,8 +48,11 @@ public class Ticket {
 		return TicketStatus;
 	}
 	public void setTicketStatus(String ticketStatus) {
+		System.out.print("My name is abhi");
 		TicketStatus = ticketStatus;
 	}
+
+
 	@Override
 	public String toString() {
 		return "Ticket [TicketId=" + TicketId + ", From=" + From + ", To=" + To + ", TrainNum=" + TrainNum
